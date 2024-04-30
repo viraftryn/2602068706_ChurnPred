@@ -8,7 +8,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.preprocessing import OneHotEncoder
 
 model = joblib.load('XGB_model.pkl')
 gender_encoded = joblib.load('gender_encode.pkl')
