@@ -12,7 +12,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 model = joblib.load('XGB_model.pkl')
 gender_encoded = joblib.load('gender_encode.pkl')
-geography_encoded = joblib.load('geography_oneHot.pkl')
+geography_encoded = joblib.load('geography_encode.pkl')
 
 def main():
     st.title("Churn Prediction - Model Deployment")
