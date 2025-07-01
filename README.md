@@ -100,4 +100,3 @@ This project was developed as part of my academic work to explore predictive mod
 - **Visualization:** Matplotlib, Seaborn
 - **Machine Learning:** Scikit-learn, XGBoost
 - **Development Environment:** Jupyter Notebook
-- **Version Control:** Git
